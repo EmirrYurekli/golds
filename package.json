@@ -1,0 +1,10 @@
+{
+  "scripts": {
+  "start": "concurrently \"cd backend && node server.js\" \"cd frontend && npm start\""
+},
+  "dependencies": {
+    "@shadcn/ui": "^0.0.4",
+    "axios": "^1.8.3"
+  }
+  
+}
